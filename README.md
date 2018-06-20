@@ -1,5 +1,5 @@
 # Download AU files
-If you want to see the dataset, follow these steps. However, since we've already preprocessed the au files into images, you don't have to preprocess the music files because it will take time.
+If you want to see the dataset, follow these steps. However, you can't use au files because our code is set for reading images that are preprocessed from audio files.
 1. Download GTZAN set in {http://marsyasweb.appspot.com/download/data_sets/}
 2. Click "Download the GTZAN genre collection"
 3. Download the dataset in the same folder where the model directory is.
