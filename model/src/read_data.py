@@ -2,7 +2,6 @@ import os
 import sys
 import numpy as np 
 import pandas as pd
-import data_preprocess as dp
 import librosa as lb
 import librosa.display
 import matplotlib.pyplot as plt
@@ -11,7 +10,7 @@ import matplotlib.cm as cm
 
 labels_file  = '../data/labels.csv'
 labels = pd.read_csv(labels_file,header=0)
-img_dir = '../spectrogram_images/'
+img_dir = '../spectrogram_images_299/'
 
 def extract_images():
     for path in labels['path']:
